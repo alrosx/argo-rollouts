@@ -19,7 +19,7 @@ spec:
         ports:
         - containerPort: 80
   minReadySeconds: 30
-  revisionHistoryLimit: 3
+  revisionHistoryLimit: 1
   strategy:
   # ----- Everything above this comment are the same as a deployment -----
     canary: # A new field that used to provide configurable options for a Canary strategy
